@@ -10,9 +10,11 @@
     box-sizing: border-box;
 }
 
+/** Elementos Base  */
 body{
     background-color: var(--preta);
     font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 header .container{
@@ -20,6 +22,7 @@ header .container{
     flex-direction: row;
     align-items: center; 
     justify-content:space-between;
+
 }
 
 .logo{
@@ -38,4 +41,20 @@ header nav a{
 header nav a:hover{
     color: #E50914;
     text-shadow: 10px red;
+}
+
+.titulo{
+    text-transform: uppercase;
+}
+
+/** Filme Principal - Section  */
+.filme-principal{
+	font-size: 16px;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0,0.5) 100%), url(/Img/bg-banner.jpg);
+
+	height:400px;
+	background-size: cover;
+
+    display: flex;
+    direction: row;
 }
